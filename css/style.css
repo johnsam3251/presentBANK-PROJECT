@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  padding-inline: 25px;
+  padding-block: 20p;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 13px;
+  margin-left: 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+  padding-inline: 50px;
+}
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+nav a:hover {
+  color: rgba(13, 121, 237, 0.897);
+}
+nav button {
+  border: 2px solid rgba(13, 121, 237, 0.897);
+  background-color: rgba(13, 121, 237, 0.897);
+  padding-inline: 10px;
+  padding-block: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-content: center;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.row img {
+  width: 30%;
+  padding-inline: 18px;
+}
+
+.row h2 {
+  font-size: 45px;
+}
+.row p {
+  font-size: 13px;
+}
+.row span {
+  font-size: 13px;
+}
+.b1 {
+  background-color: rgba(13, 121, 237, 0.897);
+  color: white;
+  border: 1px solid rgba(13, 121, 237, 0.897);
+  border-radius: 7px;
+  padding-inline: 8px;
+  padding-block: 5px;
+  cursor: pointer;
+}
+.b2 {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding-inline: 8px;
+  padding-block: 5px;
+  cursor: pointer;
+}
+.row h5 {
+  padding-block: 5px;
+}
+.icon {
+  padding-inline: 3px;
+}
+
+.feature {
+  text-align: center;
+  width: 100%;
+}
+.feature a {
+  text-decoration: none;
+}
+.feature span {
+  font-size: 12px;
+}
+.icon {
+  color: #33a9ff;
+}
+.word p {
+  font-size: 13px;
+}
+.word {
+  color: #002966;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 90%;
+}
+
+.last {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.last span:first-child {
+  align-items: center;
+  font-size: 21px;
+}
+.stay {
+  margin-left: 50px;
+}
+.stay2 {
+  margin-left: 30px;
+}
+.b3 {
+  background-color: rgba(13, 121, 237, 0.897);
+  color: white;
+  border: 1px solid rgba(13, 121, 237, 0.897);
+  border-radius: 7px;
+  padding-inline: 8px;
+  padding-block: 5px;
+  cursor: pointer;
+}
+.b4 {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 7px;
+  padding-inline: 8px;
+  padding-block: 5px;
+  cursor: pointer;
+}
+.b3 .b4 {
+  display: flex;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.about-us .head1 {
+  border: 1px solid #66676997;
+  padding-right: 100px;
+  padding-left: 20px;
+  padding-block: 15px;
+}
+.head1{
+    width: 40%;
+    height: 17vh
+}
+.head1 h4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head1 p{
+  display: none;
+}
+.web {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head1:hover p {
+  display: flex;
+  flex-direction: column;
+}
+.still{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #87c2ec4d;
+  background-color: #87c2ec4d;
+  border-radius: 20px;
+  padding-block: 30px;
+  padding-inline: 10px;
+}
+.still button{
+  border: 1px solid #1a75ff;
+  background-color: #1a75ff;
+  border-radius: 10px;
+  padding-inline: 10px;
+  padding-block: 6px;
+  color: white;
+  cursor: pointer;
+}
+.studio1 img {
+  display: flex;
+  flex-direction: column;
+}
+.studio2 img {
+  display: flex;
+  flex-direction: column;
+}
+.studio3 img {
+  display: flex;
+  flex-direction: column;
+}
+.studio {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog a {
+  text-decoration: none;
+  color: #0077cc;
+  border: 1px solid #75b4e130;
+  background-color: #75b4e130;
+  border-radius: 20px;
+  padding-inline: 8px;
+  padding-block: 2px;
+  cursor: pointer;
+}
+.blog button {
+  color: #0077cc;
+  border: 1px solid #75b4e130;
+  background-color: #75b4e130;
+  border-radius: 20px;
+  padding-inline: 8px;
+  padding-block: 2px;
+  cursor: pointer;
+}
+.blog .Learn {
+  color: white;
+  border: 1px solid #1a75ff;
+  background-color: #1a75ff;
+  border-radius: 8px;
+  padding-inline: 10px;
+  padding-block: 8px;
+  cursor: pointer;
+}
+.enter {
+  border: 1px solid #87c2ec4d;
+  background-color: #87c2ec4d;
+  border-radius: 20px;
+  padding-block: 30px;
+  padding-inline: 10px;
+  align-items: center;
+}
+.enter form {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid #87c2ec4d;
+  background-color: white;
+  border-radius: 30px;
+  width: 20px;
+  column-gap: 5px;
+}
+.enter input {
+  border: 1px solid #87c2ec4d;
+  background-color: white;
+  border-radius: 20px;
+  padding-inline: 20px;
+}
+.enter button {
+  border: 1px solid #1a75ff;
+  background-color: #1a75ff;
+  border-radius: 10px;
+  padding-inline: 8px;
+  padding-block: 4px;
+  color: white;
+  cursor: pointer;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fake1{
+  display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+}
+.fake2{
+   display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  row-gap: 70px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ground {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.594);
+  padding-block: 10px;
+  padding-inline: 8px;
+}
+.ground a{
+  text-decoration: none;
+  font-size: 10px;
+}
+footer p{
+  font-size: 10px;
+}
